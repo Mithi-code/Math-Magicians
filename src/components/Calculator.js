@@ -5,8 +5,8 @@ import './Calculator.css';
 class Calculator extends Component {
   render() {
     return (
-      <div className='calculator'>
-        <div className='result'>0</div>
+      <div className="calculator">
+        <div className="result">0</div>
         <table>
           <tr>
             <td>AC</td>
