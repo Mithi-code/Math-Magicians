@@ -4,11 +4,11 @@ import Calculator from './components/Calculator';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class App extends Component {
-  render(){
+  render() {
     return <>
-    <h1>Calculator</h1>
-    <Calculator />
-    </>
+      <h1>Calculator</h1>
+      <Calculator />
+    </>;
   }
 }
 export default App;
