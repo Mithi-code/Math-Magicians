@@ -1,0 +1,39 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.result {
+    background-color: rgb(189, 185, 216);
+    width: 390px;
+    height: 40px;
+    display: flex;
+    padding: 0 5px;
+    align-items: center;
+    justify-content: end;
+    color: #fff;
+    font-size: 20px;
+}
+
+table {
+    width: 400px;
+    border: 1px solid rgb(160, 157, 157);
+}
+
+tr {
+    border: 1px solid rgb(160, 157, 157);
+    height: 40px;
+    background-color: #ebe8e8;
+}
+
+td {
+    height: 40px;
+    width: 50px;
+}
+
+td:last-child {
+    background-color: #ffa500;
+}
