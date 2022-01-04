@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import "./Calculator.css";
+import React, { Component } from 'react';
+import './Calculator.css';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends Component {
   render() {
     return (
-      <div className="calculator">
-        <div className="result">0</div>
+      <div className='calculator'>
+        <div className='result'>0</div>
         <table>
           <tr>
             <td>AC</td>
