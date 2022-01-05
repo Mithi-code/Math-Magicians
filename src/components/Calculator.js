@@ -21,7 +21,9 @@ class Calculator extends Component {
   }
 
   render() {
-    //eslint-disabled
+
+    /* eslint-disable */
+
     return (
       <div className="calculator">
         {this.state.next ? (
