@@ -16,16 +16,18 @@ class Calculator extends Component {
 
   handleClick(e) {
     if (!e.target.name) return;
-    const {next,total,operation} = calculate(this.state, e.target.name);
-    this.setState({next,total,operation});
+    const { next, total, operation } = calculate(this.state, e.target.name);
+    this.setState({ next, total, operation });
   }
 
   render() {
     return (
       <div className="calculator">
         {this.state.next ? (
+          // eslint-disable  react/destructuring-assignment
           <div className="result">{this.state.next}</div>
         ) : (
+          // eslint-disable  react/destructuring-assignment
           <div className="result">{this.state.total}</div>
         )}
         <table onClick={this.handleClick}>
