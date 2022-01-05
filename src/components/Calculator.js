@@ -21,13 +21,12 @@ class Calculator extends Component {
   }
 
   render() {
+    //eslint-disabled
     return (
       <div className="calculator">
         {this.state.next ? (
-          // eslint-disable  react/destructuring-assignment
           <div className="result">{this.state.next}</div>
         ) : (
-          // eslint-disable  react/destructuring-assignment
           <div className="result">{this.state.total}</div>
         )}
         <table onClick={this.handleClick}>
