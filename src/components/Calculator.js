@@ -16,9 +16,10 @@ class Calculator extends Component {
 
   handleClick(e) {
     if (!e.target.name) return;
-    const data = calculate(this.state, e.target.name);
-    this.setState({ ...data });
+    const {next,total,operation} = calculate(this.state, e.target.name);
+    this.setState({next,total,operation});
   }
+
   render() {
     return (
       <div className="calculator">
