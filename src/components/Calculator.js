@@ -5,7 +5,7 @@ import calculate from '../logic/calculate';
 // eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       total: 0,
       next: null,
@@ -13,17 +13,21 @@ class Calculator extends Component {
     };
     this.handleClick = this.handleClick.bind(this);
   }
-   handleClick(e){
-    if (!e.target.name) return  
-    const data = calculate(this.state, e.target.name)
-    console.log(data)
-    this.setState({...data})
+  handleClick(e) {
+    if (!e.target.name) return;
+    const data = calculate(this.state, e.target.name);
+    console.log(data);
+    this.setState({ ...data });
   }
   render() {
     return (
       <div className='calculator'>
-        {this.state.next ? <div className='result'>{this.state.next}</div> : <div className='result'>{this.state.total}</div>}
-        <table onClick={this.handleClick}> 
+        {this.state.next ? (
+          <div className='result'>{this.state.next}</div>
+        ) : (
+          <div className='result'>{this.state.total}</div>
+        )}
+        <table onClick={this.handleClick}>
           <tr>
             <td>
               <button type='button' name='AC'>
