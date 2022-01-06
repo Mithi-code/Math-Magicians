@@ -18,16 +18,7 @@
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
-    "no-shadow": "off",
-    "react/no-unstable-nested-components": "off",
-    "react/no-namespace": "off",
-    "import/no-relative-packages": "off",
-    "import/no-import-module-exports": "off",
-    "react/no-unused-class-component-methods": "off",
-    "react/no-invalid-html-attribute": "off",
-    "react/no-arrow-function-lifecycle": "off",
-    "react/prefer-exact-props": "off",
-    "react/function-component-definition": "off"
+    "no-shadow": "off"
   },
   "ignorePatterns": [
     "dist/",
