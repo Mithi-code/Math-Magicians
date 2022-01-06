@@ -29,6 +29,13 @@ tr {
   background-color: #ebe8e8;
 }
 
+button {
+  outline: none;
+  border: none;
+  background-color: unset;
+  width: 100%;
+}
+
 td {
   height: 40px;
   width: 50px;
