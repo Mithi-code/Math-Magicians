@@ -3,16 +3,16 @@ import './Calculator.css';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
-  const [ data , setData ] = useState({ total: '0', next: null, operation: null });
+  const [data, setData] = useState({ total: '0', next: null, operation: null });
 
   const handleClick = (e) => {
     if (!e.target.name) return;
     const { next, total, operation } = calculate(data, e.target.name);
     setData({ next, total, operation });
-  }
+  };
   const { total, next } = data;
 
-    return (
+  return (
       <div className="calculator">
         {next ? (
           <div className="result">{next}</div>
@@ -127,7 +127,7 @@ const Calculator = () => {
           </tr>
         </table>
       </div>
-    );
-}
+  );
+};
 
 export default Calculator;
