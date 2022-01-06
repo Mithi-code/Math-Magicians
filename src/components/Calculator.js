@@ -14,11 +14,9 @@ const Calculator = () => {
 
   return (
     <div className="calculator">
-      {next ? (
-        <div className="result">{next}</div>
-      ) : (
-        <div className="result">{total}</div>
-      )}
+     <div className="result"> 
+     { data.next || data.operation || data.total || 0 }
+     </div>
       <table>
         <tr>
           <td>
@@ -37,8 +35,8 @@ const Calculator = () => {
             </button>
           </td>
           <td>
-            <button type="button" name="+" onClick={handleClick}>
-              +
+            <button type="button" name="÷" onClick={handleClick}>
+            ÷
             </button>
           </td>
         </tr>
