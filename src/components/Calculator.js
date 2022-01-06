@@ -20,7 +20,7 @@ class Calculator extends Component {
   }
 
   render() {
-    const {next , total} = this.state
+    const { next, total } = this.state;
     return (
       <div className="calculator">
         {next ? (
