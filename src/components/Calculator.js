@@ -16,7 +16,7 @@ const Calculator = () => {
     <div className="calculator">
       {next ? (
         <div className="result">{next}</div>
-      ):(
+      ) : (
         <div className="result">{total}</div>
       )}
       <table>
