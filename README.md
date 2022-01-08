@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-- [Live Demo Link]()
+- [Live Demo Link](https://mithi-code.github.io/Math-Magicians/)
 
 
 ## Getting Started
