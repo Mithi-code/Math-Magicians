@@ -15,7 +15,6 @@
 - React
 - Webpack
 - Git and GitHub
-- Jest
 
 ## Live Demo
 
