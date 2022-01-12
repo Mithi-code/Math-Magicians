@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text {
+  padding: 45px;
+  width: 600px;
+  font-size: 18px;
+  color: azure;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 150px;
+  padding: 5px;
+  font-size: 22px;
+  background-color: aqua;
+}

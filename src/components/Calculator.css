@@ -8,8 +8,8 @@
 
 .result {
   background-color: rgb(189, 185, 216);
-  width: 390px;
-  height: 40px;
+  width: 400px;
+  height: 50px;
   display: flex;
   padding: 0 5px;
   align-items: center;
@@ -25,7 +25,7 @@ table {
 
 tr {
   border: 1px solid rgb(160, 157, 157);
-  height: 40px;
+  height: 50px;
   background-color: #ebe8e8;
 }
 
@@ -34,6 +34,7 @@ button {
   border: none;
   background-color: unset;
   width: 100%;
+  font-size: 20px;
 }
 
 td {
