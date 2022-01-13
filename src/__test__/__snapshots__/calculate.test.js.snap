@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculate the test is to return an empty object 1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": null,
+}
+`;
+
+exports[`Calculate the test should return 0 1`] = `Object {}`;
+
+exports[`Calculate the test should return a number entered if the operation and total are null 1`] = `"3"`;
+
+exports[`Calculate the test should return a total null if  operation is null  1`] = `null`;
+
+exports[`Calculate the test to should return concatenation of numbers with next value  1`] = `"84"`;
