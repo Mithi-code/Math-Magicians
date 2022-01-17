@@ -16,9 +16,11 @@
 - Webpack
 - Git and GitHub
 
-## Live Demo
+## Deploy Link
 
-- [Live Demo Link](https://mithi-code.github.io/Math-Magicians/)
+- [netlify](https://objective-hodgkin-81c328.netlify.app)
+
+- [Heroku](https://something2354.herokuapp.com/)
 
 
 ## Getting Started
