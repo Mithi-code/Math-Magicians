@@ -4,7 +4,7 @@ describe('Operate', () => {
   const num1 = 4;
   const num2 = 2;
   const addition = operate(num1, num2, '+');
-  test(' The test check for  Addition of two number', () => {
+  test('The test check for  Addition of two number', () => {
     expect(addition).toBe('6');
     expect(addition).toMatchSnapshot();
   });
@@ -14,7 +14,7 @@ describe('Operate', () => {
     expect(subtraction).toMatchSnapshot();
   });
   const division = operate(num1, num2, '÷');
-  test(' The test check for division of two number', () => {
+  test('The test check for division of two number', () => {
     expect(division).toBe('2');
     expect(division).toMatchSnapshot();
   });

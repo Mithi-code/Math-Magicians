@@ -15,12 +15,12 @@ describe('Articles Tests', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Render works correctly', () => {
+  it('Render works fine', () => {
     const tree = renderer.create(<Calculator />);
     expect(tree).toMatchSnapshot();
   });
 
-  it('Render works correctly', () => {
+  it('Render works good', () => {
     const tree = renderer.create(<Quote />);
     expect(tree).toMatchSnapshot();
   });

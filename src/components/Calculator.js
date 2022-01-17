@@ -15,7 +15,7 @@ const Calculator = () => {
   return (
     <div className="calculator">
      <div className="result"> 
-     { data.next || data.operation || data.total || 0 }
+     { next || data.operation || total || 0 }
      </div>
       <table>
         <tr>

@@ -13,7 +13,7 @@ describe('Calculate', () => {
     expect(calculate(obj, '0')).toMatchSnapshot();
   });
 
-  test('the test to should return concatenation of numbers with next value ', () => {
+  test('the test to should return concatenation of numbers with next value', () => {
     obj.operation = '+';
     obj.next = '8';
     calculate(obj, '4');
@@ -21,7 +21,7 @@ describe('Calculate', () => {
     expect(calculate(obj, '4').next).toMatchSnapshot();
   });
 
-  test('the test should return a total null if  operation is null ', () => {
+  test('the test should return a total null if  operation is null', () => {
     obj.operation = null;
     obj.next = 2;
     expect(calculate(obj, '3').next).toBe('23');
