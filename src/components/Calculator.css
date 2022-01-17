@@ -13,9 +13,9 @@
   display: flex;
   padding: 0 5px;
   align-items: center;
-  justify-content: end;
   color: #fff;
   font-size: 20px;
+  justify-content: flex-end;
 }
 
 table {
