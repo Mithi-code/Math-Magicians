@@ -4,8 +4,8 @@
 
 > Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.
 
-![screenshot]()
-
+![screenshot](./public/app1.png)
+![test's screenshot](./public/test.png)
 
 ## Built With
 
@@ -15,11 +15,12 @@
 - React
 - Webpack
 - Git and GitHub
-- Jest
 
-## Live Demo
+## Deploy Link
 
-- [Live Demo Link]()
+- [netlify](https://objective-hodgkin-81c328.netlify.app)
+
+- [Heroku](https://something2354.herokuapp.com/)
 
 
 ## Getting Started

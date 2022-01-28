@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Operate  The test check for  Addition of two number 1`] = `"6"`;
+
+exports[`Operate  The test check for division of two number 1`] = `"2"`;
+
+exports[`Operate The  test that check for no divisibility by denominator zero 1`] = `"Can't divide by 0."`;
+
+exports[`Operate The  test that checks for the modulus of a number 1`] = `"0"`;
+
+exports[`Operate The test check for multiplication of two number 1`] = `"8"`;
+
+exports[`Operate The test check for subtraction of two number 1`] = `"2"`;
